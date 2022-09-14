@@ -1,0 +1,75 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+  margin: 0;
+  text-align: center;
+  color: rgb(26, 23, 23);
+  background: linear-gradient(#9ba6a5, #bbe9db);
+}
+
+.croydon {
+  text-decoration: none;
+  color: bisque;
+}
+
+.hero-croydon {
+  background-image: url("https://www.london.gov.uk/sites/default/files/styles/gla_2_1_large/public/croydon_unknown_2013-2x1.jpg?itok=IVYQSU0g");
+  margin: 40px auto;
+  padding: 100px;
+  text-shadow: 2px 5px 10px black;
+}
+
+.activities {
+  text-shadow: 1px 1px 10px grey;
+}
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.things-to-do {
+  margin: 20px;
+  padding: 20px;
+  width: 400px;
+}
+
+.footer {
+  width: 300px;
+  padding: auto;
+  margin: 50px auto;
+  border: 1px solid #dfcdc3;
+  border-bottom: 7px solid #613864;
+  display: flex;
+  justify-content: center;
+  background-color: #719192;
+}
+.avatar {
+  width: 100px;
+  padding: 30px 20px;
+}
+.guid {
+  font-size: small;
+  padding: 30px 20px;
+}
+
+#croydon-town {
+  color: beige;
+}
+#meuseum,
+#micro-meusem,
+#park {
+  width: 200px;
+  border-radius: 50%;
+}
+#name {
+  font-weight: bolder;
+  font-size: 12px;
+  padding-top: 20px;
+}
